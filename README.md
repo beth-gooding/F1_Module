@@ -1,2 +1,2 @@
-# F1_Module 
+# Racecar_Module 
 # Practising modules and testing with ava, as well as using GitHub
