@@ -20,5 +20,17 @@ export class F1Driver {
         `;
     }
 
+    overtake(){
+        console.log('Yay! You gained a place!')
+    }
+
+    passed(){
+        console.log("Oh no! You were overtaken.")
+    }
+
+    crashed(){
+        console.log("NOOOOOO! You crashed your car.")
+    }
+
     
 }
