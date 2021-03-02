@@ -5,8 +5,6 @@ let GR63 = new Driver('George Russell', 23, 63, 'Williams', 'United Kingdom', fa
 let MS47 = new Driver('Mick Schumacher', 21, 47, 'Haas', 'Germany', true);
 let LH44 = new Driver('Lewis Hamilton', 36, 44, 'Mercerdes', 'United Kingdom', false);
 
-
-
 console.log(CL16.getDetails());
 console.log(GR63.getDetails());
 console.log(MS47.getDetails());
@@ -16,3 +14,5 @@ CL16.overtake();
 GR63.passed();
 MS47.crashed();
 LH44.win();
+
+console.log(Driver.older(MS47, LH44));

@@ -37,5 +37,15 @@ export class Driver {
         console.log("YESSSSS! You won the race!")
     }
 
+    static older(driver1, driver2){
+        let difference = driver1.age - driver2.age;
+        if (difference === 0) {
+            return `${driver1.name} is the same age as ${driver2.name}.`;
+        } else if (difference > 0) {
+            return `${driver1.name} is older than ${driver2.name}.`;
+        } else {
+            return `${driver1.name} is younger than ${driver2.name}.`;
+        }
+    }
 
 }
