@@ -22,14 +22,19 @@ export class Driver {
 
     overtake(){
         console.log('Yay! You gained a place!')
+        return 'Yay! You gained a place!';
     }
 
     passed(){
-        console.log("Oh no! You were overtaken.")
+        console.log("Oh no! You were overtaken!")
     }
 
     crashed(){
-        console.log("NOOOOOO! Your car crashed.")
+        console.log("NOOOOOO! Your car crashed!")
+    }
+
+    win() {
+        console.log("YESSSSS! You won the race!")
     }
 
 
