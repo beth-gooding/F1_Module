@@ -1,5 +1,5 @@
 
-export class F1Driver {
+export class Driver {
     constructor(name, age, number, team, country, rookie) {
         this.name = name;
         this.age = age;
@@ -29,8 +29,8 @@ export class F1Driver {
     }
 
     crashed(){
-        console.log("NOOOOOO! You crashed your car.")
+        console.log("NOOOOOO! Your car crashed.")
     }
 
-    
+
 }
